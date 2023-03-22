@@ -413,7 +413,7 @@ ScrollTrigger.matchMedia({
       tl.fromTo(
         targetElement,
         {
-          backgroundColor: "#f1cd50",
+          backgroundColor: "#f6f3fb",
           color: "#2e2a27",
           duration: 1
         },
@@ -503,7 +503,7 @@ ScrollTrigger.matchMedia({
       tl.fromTo(
         targetElement,
         {
-          backgroundColor: "#f1cd50",
+          backgroundColor: "#f6f3fb",
           color: "#2e2a27",
           duration: 1
         },
