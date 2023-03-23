@@ -610,30 +610,4 @@ $(".plan_left").each(function (index) {
   });
 });
 
-ScrollTrigger.matchMedia({
-  // large
-  "(min-width: 960px)": function () {
-    $(".benefits-header").each(function (index) {
-      let triggerElement = $(this);
-      let targetElement = $(".header-move");
-      let tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: triggerElement,
-          // trigger element - viewport
-          start: "top 30%",
-          end: "top top",
-          duration: 2,
-          scrub: 2,
-          ease: "SlowMo.easeInOut"
-        }
-      });
-      tl.from(targetElement, {
-        y: "100%",
-        ease: "back.out(2)",
-        opacity: 0,
-        stagger: { amount: 1 },
-        ase: "SlowMo.easeInOut"
-      });
-    });
-  }
-});
+
